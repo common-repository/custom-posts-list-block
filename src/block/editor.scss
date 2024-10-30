@@ -1,0 +1,11 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-cm-custom-posts-list  {
+  border: 0.2rem solid $black;
+  color: $black;
+}

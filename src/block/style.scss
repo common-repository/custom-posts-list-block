@@ -1,0 +1,48 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cm-custom-posts-list  {
+  // background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+}
+
+.cm-posts-list-wrapper{
+  padding: 1.5rem;  
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.cm-posts-list-item{
+  border-bottom: 0.2rem solid $black;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.cm-posts-list-item:last-child{
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cm-posts-list-item img{
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+.cm-posts-list-item p{
+  margin-bottom: 0.5rem;
+}
